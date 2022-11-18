@@ -1,5 +1,5 @@
 import { json, redirect } from '@remix-run/node';
-import { useActionData, useCatch, useLoaderData } from '@remix-run/react';
+import { useCatch, useLoaderData } from '@remix-run/react';
 import NewNote, { links as newNoteLinks } from '~/components/NewNote';
 import NoteList, { links as noteListLinks } from '~/components/NoteList';
 import { getStoredNotes, storeNotes } from '~/data/notes';
