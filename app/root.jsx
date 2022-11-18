@@ -1,7 +1,7 @@
 import styles from '~/styles/main.css';
 import MainNavigation from '~/components/MainNavigation';
 import { Link, useCatch } from '@remix-run/react';
-import NewNote from './components/NewNote';
+// import NewNote from './components/NewNote';
 
 const {
   Links,
